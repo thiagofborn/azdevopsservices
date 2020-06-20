@@ -1,18 +1,17 @@
 # Azure DevOps APIs
 
-Nowadays, most of the worklaods are built using Rest API model. Azure DevOps is not different.
+Nowadays, most of the workloads are built using the Rest API model. Azure DevOps is not different. This is an amateur example in Powershell. But, it can help you to have your ideas.
 
 ## How to identify the API using your browser tool
 
-As an example I am using Microsoft EDGE with chromium engine. It is the same method on Google Chrome.
+As an example, I am using Microsoft EDGE with a chromium engine. It is the same method on Google Chrome.
+Let's say I want to verify the API that enables the "Pipeline" service on Azure DevOps.
 
-Let's say I want to verify the API that enables the "Pipeline" service, on Azure DevOps.
-
-- First go to the Developer Tools on your browser by typing the keys all together **CTRL+SHIFT+I**
-- Go to the Azure DevOps and then navigate to **"Project configuration"** -> **"Overview"**
-- Then go to the **Network** tab
-- Select the XHR option
-- (Optional recommended) Clear the console there is a symbol on the right side of the **Record** (beside the red buttom)
+- First, go to the **Developer Tools** on your browser by typing the keys all together **CTRL+SHIFT+I**
+- Go to the Azure DevOps and then navigate to **"Project configuration"** -> **"Overview**."
+- Then go to the **Network tab**
+- Select the **XHR** option
+- (Optional recommended) Clear the console there is a symbol on the right side of the Record (besides the red button)
 - Now you can click on **Pipelines**
 - The picture will help you a bit to localize where to find the **Url**
 
